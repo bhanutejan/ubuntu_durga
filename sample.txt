@@ -1,0 +1,13 @@
+Before getting started:
+
+Before start upgrading your OS, you have to do some preparations to avoid failure and speed up upgrading process.
+
+    First, backup, backup, backup! The upgrade process MAY FAIL, due to internet corrupt, hardware issue, and/or package conflict. If the upgrade process failed, your system MAY refuse to boot. So, it’s important to make backup, though, you can mount the disk in another OS to export user data.
+    Remove useless applications. It will try to upgrade all installed packages to the higher versions in 23.10 system repository. So removing useless packages, such as non-default desktop environments, results less downloading to speed up upgrading process. Though, it’s totally OK to skip this step.
+    First, backup, backup, backup! The upgrade process MAY FAIL, due to internet corrupt, hardware issue, and/or package conflict. If the upgrade process failed, your system MAY refuse to boot. So, it’s important to make backup, though, you can mount the disk in another OS to export user data.
+    Restore important libraries. If you’ve installed 3rd party versions of multimedia (e.g., FFmpeg) libraries, it’s highly recommended to uninstall/restore to avoid package conflict.
+    Disable third-party repositories. Third party repositories may contain packages that cause conflict to the packages in 23.10 system repository. It’s highly to disable them by launching “Software & Updates” and removing/un-ticking source lines under “Other Software” tab. 
+dfdfdfdff
+hey man
+hey man
+hey man
